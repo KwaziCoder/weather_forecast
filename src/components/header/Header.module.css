@@ -1,0 +1,5 @@
+.root {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  background-color: #9EB3E9;
+}
