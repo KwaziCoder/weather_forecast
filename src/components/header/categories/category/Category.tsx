@@ -1,9 +1,16 @@
 import React from 'react';
+import styles from "./Category.module.css";
 
-const Category = () => {
+type CategoryProps = {
+  title: string
+}
+
+const Category = (props: CategoryProps) => {
   return (
-    <div>
-      Category
+    <div className={styles.root}>
+      <button className={styles.button}>
+        {props.title}
+      </button>
     </div>
   )
 }

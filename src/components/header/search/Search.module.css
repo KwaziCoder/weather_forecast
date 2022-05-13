@@ -1,3 +1,41 @@
 .root {
   
 }
+
+.wrap {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 18px;
+  padding-right: 40px;
+}
+
+.input {
+  height: 24px;
+  width: 180px;
+  border-radius: 5px;
+  border: 0px solid #fff;
+  font-size: 12px;
+  padding: 8px;
+}
+
+.button {
+  margin-left: 5px;
+  height: 24px;
+  width: 60px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #E35B5B;
+  border-radius: 5px;
+  border: 0px solid #fff;
+  color: #fff
+}
+
+.button:hover {
+  background-color: #fa8686;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #E35B5B;
+  cursor: pointer;
+}
