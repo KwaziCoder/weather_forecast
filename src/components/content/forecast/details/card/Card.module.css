@@ -1,0 +1,33 @@
+.root {
+  height: 250px;
+  width: 150px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 5px;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  height: 180px;
+  margin-top: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px 10px;
+}
+.temperature {}
+.wind {
+  text-align: left;
+}
+.humidity {
+  text-align: left;
+}
+.image {}
