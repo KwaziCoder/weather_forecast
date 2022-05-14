@@ -1,0 +1,30 @@
+.root {
+  
+}
+
+.button {
+  color: #fff;
+  height: 60px;
+  width: 98px;
+  border: 0 solid #fff;
+}
+
+.activeButton {
+  background-color: #5E77B8;
+}
+.activeButton:hover {
+  cursor: pointer;
+}
+.activeButton:active {
+  background-color: #9EB3E9;
+}
+.passiveButton {
+  background-color: #9EB3E9;
+}
+.passiveButton:hover {
+  background-color: #5E77B8;
+  cursor: pointer;
+}
+.passiveButton:active {
+  background-color: #9EB3E9;
+}

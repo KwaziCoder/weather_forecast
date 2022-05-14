@@ -5,6 +5,5 @@
 .wrap {
   display: grid;
   grid-template-columns: 100px 100px 100px 100px;
-  margin-top: 18px;
-  padding-right: 40px;
+  grid-template-rows: 60px;
 }
