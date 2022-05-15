@@ -1,6 +1,4 @@
-.root {
-  
-}
+
 .wrap {
   height: 100%;
   width: 100%;
@@ -9,14 +7,12 @@
   align-items: center;
   flex-direction: row;
 }
-.imageWrap {}
+
 .textWrap {
   color: #fff;
   font-size: 24px;
 }
-.temperature {
 
-}
 .wind {
   margin-top: 20px;
 }

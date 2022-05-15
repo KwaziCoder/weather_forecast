@@ -2,7 +2,12 @@
   background-color: #C1CBE5;
 }
 .textBox {
-  
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .text {
   font-size: 12px;
