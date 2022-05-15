@@ -1,6 +1,6 @@
 .root {
-  height: 250px;
-  width: 150px;
+  height: auto;
+  width: auto;
 }
 .header {
   display: flex;
